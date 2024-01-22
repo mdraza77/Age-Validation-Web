@@ -62,7 +62,7 @@ button:hover {
     text-align: center;
     border: 1px solid black;
     width: 200px;
-    height: 20px;
+    height: 40px;
     border-radius: 3px;
-    padding-top: 3px;
+    padding-top: 10px;
 }
