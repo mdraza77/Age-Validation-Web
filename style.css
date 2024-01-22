@@ -1,0 +1,68 @@
+html,
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .sub-container {
+    width: 200px;
+    height: 200px;
+    padding-top: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-container {
+    gap: 15px;
+}
+
+input,
+button {
+    width: 290px;
+    height: 30px;
+    outline: none;
+    background: transparent;
+    border: 2px solid red;
+    border-radius: 3px;
+    border: 1px solid black;
+    font-size: 15px;
+}
+
+input:hover {
+    border-radius: 4px;
+    transition: all 0.5s ease-in-out;
+}
+
+button {
+    height: 35px;
+    color: white;
+    background-color: red;
+    transition: all 0.4s ease;
+    font-style: normal;
+}
+
+button:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    border-radius: 4px;
+    transition: all 0.5s ease-in-out;
+}
+
+.refresh-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.1rem;
+}
+
+#result {
+    text-align: center;
+    border: 1px solid black;
+    width: 200px;
+    height: 20px;
+    border-radius: 3px;
+    padding-top: 3px;
+}
